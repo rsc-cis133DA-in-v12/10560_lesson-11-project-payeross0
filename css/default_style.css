@@ -81,6 +81,11 @@ main {
     display: block;
     margin: 0 auto;
 }
+#resetMessage {
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+}
 
 /*Table Styles **/
 

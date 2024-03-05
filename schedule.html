@@ -3,14 +3,14 @@
 <head>
     <!--
         Course: CIS133DA
-        Section: #
-        Lesson: 
+        Section: # 10560
+        Lesson: 11
     -->
-    <title>Template</title>
+    <title>Schedule</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Payeton Ross">
+    <meta name="description" content="Pricing options and a request form to book appointments for both individual customers and businesses.">
+    <meta name="keywords" content="pricing, appointment, computer company, repair, hardware, software">
     <link rel="stylesheet" href="css/default_style.css">
 </head>
 <body>
@@ -97,13 +97,16 @@
                 <label for="comments">Additional Comments:</label>
                 <textarea id="comments"></textarea>
                 <br>
-                <button type="reset">Reset form</button>
-                <button type="submit">Submit form</button>
+                <button onclick="formReset()" type="reset">Reset form</button>
+                <button onclick="formSubmit()" type="submit">Submit form</button>
             </form>
+            <p id="resetMessage">This form has been reset.</p>
         </main>
         <footer>
-            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by MEID &copy; 2023</small></p>
+            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by PAY2162183 &copy; 2024</small><br>
+            Last Modified - <span id="lastModified">n/a</span></p>
         </footer>
     </div>
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>
